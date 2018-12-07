@@ -1,0 +1,61 @@
+body{
+  background-image: url(https://images.pexels.com/photos/1537336/pexels-photo-1537336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.jumbotron{
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 25px;
+  font-family: 'Fredoka One', cursive;
+}
+a:hover{
+  cursor: pointer;
+  transition-duration: 5s;
+
+}
+.quiz1{
+  display: none;
+}
+
+.quiz2{
+  display: none;
+}
+
+.quiz3{
+  display: none;
+}
+
+.quiz4{
+  display: none;
+}
+#click1{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
+#click2{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
+#click3{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
+#click4{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
+.submit{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
