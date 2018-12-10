@@ -7,6 +7,7 @@
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
     <title>Quiz board</title>
   </head>
   <body>
@@ -14,104 +15,58 @@
     <div class="jumbotron">
       <h1 id="demo"></h1>
 
-      <button onclick="typeWriter()">Click me</button>
+      <button type="button" onclick="typeWriter()">Click me </button>
     </div>
 
-    <center>
-      <button type="button" name="button" id="click1">quiz 1</button>
-      <form class="quiz1" name="quiz">
+
 
         <div class="jumbotron">
+          <form class="quiz1" name="quiz">
                 <p>
                   1.Which one of the following is a basic building block for javascript:<br>
-                 <label><br>
-                  <input type="radio" name="question1" id="1">
-                  <span>Function</span><br>
-                  <input type="radio"name="question1" id="1">
-                  <span>Boolen</span><br>
-                  <input type="radio" name="question1" id="1">
-                  <span>JSFiddle</span><br>
-                 </label>
+                  <input type="radio" name="question1" class="question1" value="Function">Function<br>
+                  <input type="radio"name="question1" class="question1" value="Boolen">Boolen<br>
+                  <input type="radio" name="question1" class="question1"value="JSFiddle">JSFiddle<br>
                </p>
-        </div>
-      </form>
-      <button type="button" name="button" id="click2">quiz 2</button>
-      <form class="quiz2" name="quiz">
-          <div class="jumbotron">
             <p>
-              2.ECMAScript is also known as:<br>
-             <label><br>
-              <input type="radio" name="question1" id="1">
-              <span>HTML</span><br>
-              <input type="radio"name="question1" id="1">
-              <span>JAVASCRIPT</span><br>
-              <input type="radio" name="question1" id="1">
-              <span>JAVA</span><br>
-             </label>
+              2.ECMAScript is also known as:
+              <br>
+              <input type="radio" name="question2" id="1" value="HTML">HTML<br>
+              <input type="radio"name="question2" id="1" value="JAVASCRIPT">JAVASCRIPT<br>
+              <input type="radio" name="question2" id="1" value="JAVA">JAVA<br>
            </p>
-          </div>
-      </form>
-      <button type="button" name="button" id="click3">quiz 3</button>
-      <form class="quiz3" name="quiz">
-          <div class="jumbotron">
 
             <p>
-              3.When was Javascript introduced:<br>
-             <label><br>
-              <input type="radio" name="question1" id="1">
-              <span>1985</span><br>
-              <input type="radio"name="question1" id="1">
-              <span>1993</span><br>
-              <input type="radio" name="question1" id="1">
-              <span>1995</span><br>
-             </label>
-           </p>
-          </div>
-      </form>
-      <button type="button" name="button" id="click4">quiz 4</button>
-      <form class="quiz4" name="quiz">
-          <div class="jumbotron">
+              3.When was Javascript introduced:<p>
+
+              <input type="radio" name="question3" id="1" value="1985">1985<br>
+              <input type="radio"name="question3" id="1" value="1993">1993<br>
+              <input type="radio" name="question3" id="1" value="1995">1995<br>
+
             <p>
-            4.which of the following is true:<br>
-           <label><br>
-            <input type="radio" name="question1" id="1">
-            <span>2==="2"</span><br>
-            <input type="radio"name="question1" id="1">
-            <span>"frog"!=="lizard"</span><br>
-            <input type="radio" name="question1" id="1">
-            <span>"c" > "d"</span><br>
-           </label>
+            4.which of the following is true:
           </p>
+
+            <input type="radio" name="question4" id="1"value="2"==="2">"2"==="2"<br>
+            <input type="radio"name="question4" id="1" value="frog"!=="lizard">"frog"!=="lizard"<br>
+            <input type="radio" name="question4" id="1" value="c" > "d">"c" > "d"<br>
+            </form>
           </div>
-      </form>
+  <div class="cover">
+        <input type="text" name="result" id="show">
+      </div>
+      <input id="button" type="button" value="submit!" onclick="run();">
 
-      <button type="button" name="submit" class="submit">SUBMIT</button>
-    </center>
+ <div id="done_submit">
+<p id="message"></p>
+  <h1 id="number_correct"></h1>
+ </div>
 
- <div id="submit">
-  <p id="message"></p>
-  <p id="number correct">
-    <img id="picture">
 
 
  </div>
 
 
 
-
-
-
-
-
-
-
-
-     </div>
-
-
-
-
-
-   </div>
   </body>
 </html>
