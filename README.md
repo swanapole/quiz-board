@@ -21,7 +21,7 @@ checking the answer to the choices given
 The application analyses the data to give the scores
 
 ## Description
-A quiz-board works by checking the radio buttons, it detects how many correct answer and displays the score you have attained .to use it you git clone the url to your local repository and use your terminal to atom.the quiz board has bootstrap,js/scripts.js,jquery,bootstrap.css,styles.css,
+A quiz-board works by checking the radio buttons, it detects how many correct answer and displays the score you have attained .to use it you git clone the url to your local repository and use your terminal to atom.the quiz board has bootstrap,js/scripts.js,jquery,bootstrap.css,styles.css and index.html
 
 ## Installation Requirements
 
