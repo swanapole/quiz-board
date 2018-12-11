@@ -28,7 +28,34 @@ $(document).ready(function(){
       alert("Please answer question 1 to proceed!");
       $(".question").hide();
       $("#q-1").show();
+      return false;}else{
+      $(".question").hide();
+      $("#q-1").hide();
+      $("#q-2").show();
       return false;
+    }
+  });
+
+  $("#btn-2-1").click(function(){
+    $(".question").hide();
+    $("#q-2").hide();
+    $("#q-1").show();
+    return false;
+  });
+  $("#btn-2-2").click(function(){
+    if(isNaN($("input:radio[name = ans-2]:checked").val())){
+      alert("Please answer question 2 to proceed!");
+      $(".question").hide();
+      $("#q-1").hide();
+      $("#q-2").show();
+      return false;
+    }else{
+      $(".question").hide();
+      $("#q-2").hide();
+      $("#q-3").show();
+      return false;
+    }
+      
     
 
 
