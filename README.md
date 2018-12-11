@@ -1,4 +1,4 @@
-# quiz-board
+# online quiz-board
 swanapole quiz board
 
 ## By 
