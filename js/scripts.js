@@ -28,19 +28,4 @@ function typeWriter() {
    });
  });
 
- $(document).ready(function(){
-   $("#click4").on("click", function(){
-     $(".quiz4").toggle();
-   });
- });
-function run(){
-
-  var question1=document.quiz.question1.value;
-  var question1=document.quiz.question2.value;
-  var question1=document.quiz.question3.value;
-  var question1=document.quiz.question4.value;
-  var question1=document.quiz.question5.value;
-  var correct=0;
-
-  v
-}
+ 
