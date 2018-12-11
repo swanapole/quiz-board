@@ -10,22 +10,5 @@ function typeWriter() {
   }
 }
 
- $(document).ready(function(){
-   $("#click1").on("click", function(){
-     $(".quiz1").toggle();
-   });
- });
-
- $(document).ready(function(){
-   $("#click2").on("click", function(){
-     $(".quiz2").toggle();
-   });
- });
-
- $(document).ready(function(){
-   $("#click3").on("click", function(){
-     $(".quiz3").toggle();
-   });
- });
 
  
