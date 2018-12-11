@@ -1,117 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-    <title>Quiz board</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel= "stylesheet" type="text/css">
+    <link href="css/styles.css" rel= "stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>JavaScript Quiz board</title>
   </head>
-  <body>
     <div class="container">
-    <div class="jumbotron">
-      <h1 id="demo"></h1>
+      <div class="jumbotron">
+        <h1 id="demo"></h1>
 
-      <button onclick="typeWriter()">Click me</button>
-    </div>
-
-    <center>
-      <button type="button" name="button" id="click1">quiz 1</button>
-      <form class="quiz1" name="quiz">
-
-        <div class="jumbotron">
-                <p>
-                  1.Which one of the following is a basic building block for javascript:<br>
-                 <label><br>
-                  <input type="radio" name="question1" id="1">
-                  <span>Function</span><br>
-                  <input type="radio"name="question1" id="1">
-                  <span>Boolen</span><br>
-                  <input type="radio" name="question1" id="1">
-                  <span>JSFiddle</span><br>
-                 </label>
-               </p>
-        </div>
-      </form>
-      <button type="button" name="button" id="click2">quiz 2</button>
-      <form class="quiz2" name="quiz">
-          <div class="jumbotron">
-            <p>
-              2.ECMAScript is also known as:<br>
-             <label><br>
-              <input type="radio" name="question1" id="1">
-              <span>HTML</span><br>
-              <input type="radio"name="question1" id="1">
-              <span>JAVASCRIPT</span><br>
-              <input type="radio" name="question1" id="1">
-              <span>JAVA</span><br>
-             </label>
-           </p>
-          </div>
-      </form>
-      <button type="button" name="button" id="click3">quiz 3</button>
-      <form class="quiz3" name="quiz">
-          <div class="jumbotron">
-
-            <p>
-              3.When was Javascript introduced:<br>
-             <label><br>
-              <input type="radio" name="question1" id="1">
-              <span>1985</span><br>
-              <input type="radio"name="question1" id="1">
-              <span>1993</span><br>
-              <input type="radio" name="question1" id="1">
-              <span>1995</span><br>
-             </label>
-           </p>
-          </div>
-      </form>
-      <button type="button" name="button" id="click4">quiz 4</button>
-      <form class="quiz4" name="quiz">
-          <div class="jumbotron">
-            <p>
-            4.which of the following is true:<br>
-           <label><br>
-            <input type="radio" name="question1" id="1">
-            <span>2==="2"</span><br>
-            <input type="radio"name="question1" id="1">
-            <span>"frog"!=="lizard"</span><br>
-            <input type="radio" name="question1" id="1">
-            <span>"c" > "d"</span><br>
-           </label>
-          </p>
-          </div>
-      </form>
-
-      <button type="button" name="submit" class="submit">SUBMIT</button>
-    </center>
-
- <div id="submit">
-  <p id="message"></p>
-  <p id="number correct">
-    <img id="picture">
-
-
- </div>
-
-
-
-
-
-
-
-
-
-
-
-     </div>
-
-
-
-
-
-   </div>
-  </body>
-</html>
+<button onclick="typeWriter()">Click me</button>
+      </div>
+      <div id="test">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <form id="fm-1">
+              <div class="form-group">
+                <div id="q-1" class="question">
+                  <label for="qs-1">Q1.Which one of the following is a basic building block for javascript:</label>
+                    <div class="radio">
+                      <label for="qs-1">
+                        <input type="radio" name="ans-1" value="0">
+                        Function
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label for="qs-1">
+              
