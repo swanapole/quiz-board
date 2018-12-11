@@ -34,7 +34,8 @@ A quiz-board works by checking the radio buttons, it detects how many correct an
 
 -github
 
-##Known Bugs
+## Known Bugs 
+
 I have not seen any but the user is free to view and indentify if any.
 
 ## Technologies Used
