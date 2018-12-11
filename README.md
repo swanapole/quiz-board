@@ -1,4 +1,4 @@
-## online quiz-board
+## ONLINE QUIZ-BOARD
 swanapole quiz board
 
 ## By
@@ -12,6 +12,7 @@ https://github.com/swanapole/quiz-board
 2.17.1
 
 ## image
+<img src="https://cdn4.wpbeginner.com/wp-content/uploads/2014/06/quiz-demo.png">
 
 
 ## BDD
