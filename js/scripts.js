@@ -54,7 +54,61 @@ $(document).ready(function(){
       $("#q-2").hide();
       $("#q-3").show();
       return false;
+    }});
+
+  $("#btn-3-1").click(function(){
+    $(".question").hide();
+    $("#q-3").hide();
+    $("#q-2").show();
+    return false;
+  });
+  $("#btn-3-2").click(function(){
+    if(isNaN($("input:radio[name = ans-3]:checked").val())){
+      alert("Please answer question 3 to proceed!");
+      $(".question").hide();
+      $("#q-2").hide();
+      $("#q-3").show();
+      return false;
+    }else{
+      $(".question").hide();
+      $("#q-3").hide();
+      $("#q-4").show();
+      return false;
     }
+  });
+
+  $("#btn-4-1").click(function(){
+    $(".question").hide();
+    $("#q-4").hide();
+    $("#q-3").show();
+    return false;
+  });
+
+  $("#btn-4-2").click(function(){
+    if(isNaN($("input:radio[name = ans-4]:checked").val())){
+      alert("Please answer question 4 to submit your answers!");
+      $(".question").hide();
+      $("#q-3").hide();
+      $("#q-4").show();
+      return false;
+    }else{
+      $("#fm-1").submit(function(event){
+        event.preventDefault();
+        questions.forEach(function(question){
+          inputedAnswers.push(parseInt($("input:radio[name=" + question + "]:checked").val()));
+        });
+        pointsCompiler();
+
+        $("#test").hide();
+        $("#q-4").hide();
+        $("#output").show();
+        $("#points").append(scoredPoints);
+      });
+    }
+  });
+});
+
+    
       
     
 
