@@ -13,6 +13,10 @@ body{
   font-family: 'Patrick Hand', cursive;
   font-size:25px;
 }
+#demo{
+  font-family: 'Abril Fatface', cursive;
+}
+
 #output{
   color: #000;
   background-color: #fff;
